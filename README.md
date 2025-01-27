@@ -1,3 +1,7 @@
-# XSS-tester
-# XSS-tester
-# XSS-tester
+XSS Detection 
+
+Main Features
+
+Light Weight XSS scanning 
+
+
