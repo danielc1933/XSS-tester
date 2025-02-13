@@ -1,22 +1,57 @@
-XSS Detection 
+# XSS Detection Tool
 
-Main Features
+XSS Detection Tool is a Python script for scanning websites for Cross-Site Scripting (XSS) vulnerabilities.
 
-Light Weight XSS scanning 
+## Installation
 
-Preview:
+You can download and run the script directly from the repository. Clone the repository using the following command:
 
+```bash
+git clone https://github.com/your-username/xss-detection-tool.git
+```
+
+Preview
+XSS Scanner Preview
 ![Code_4braJyVqkN](https://github.com/user-attachments/assets/0b9227ab-d16e-4980-95c5-c7c4e45eea6c)
 
 
-__________________________________________
+Usage
+To use the XSS Detection Tool, run the following command:
 
-usage: XSSScanner.py [-h] [url]
+bash
+Copy
+python XSSScanner.py [url]
+Arguments
+url: The full URL of the website to scan for XSS vulnerabilities.
+Example: https://xss-game.appspot.com/level1/frame
 
-A tool for scanning websites for XSS vulnerabilities.
+Options
+-h, --help: Show the help message and exit.
 
-positional arguments:
-  url         The URL to scan for XSS vulnerabilities. must be a full url e.g https://xss-game.appspot.com/level1/frame
+Example
+bash
+Copy
+python XSSScanner.py https://xss-game.appspot.com/level1/frame
+Installation
+Clone the repository:
 
-options:
-  -h, --help  show this help message and exit
+bash
+Copy
+git clone https://github.com/your-username/xss-detection-tool.git
+Navigate to the project directory:
+
+bash
+Copy
+cd xss-detection-tool
+Run the script:
+
+bash
+Copy
+python XSSScanner.py [url]
+Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Disclaimer: This tool is for educational and testing purposes only. Use it responsibly and only on websites you own or have permission to test.
